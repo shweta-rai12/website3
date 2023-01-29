@@ -1,0 +1,260 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.web {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    margin: 20px;
+}
+.web span {
+    background: rgb(46, 238, 255);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    text-shadow: 2px 2px 4px black;
+    border-radius: 20% 20% 20% 20%;
+   /* clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);*/
+}
+
+
+
+/* header styling  */
+.header {
+    align-items: center;
+    height: 30px;
+    background-color: rgb(11, 41, 188);
+    display: flex;
+    justify-content: space-between;
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+}
+.header ul a {
+    color: rgb(11, 10, 11);
+    font-size: 2vw;
+    text-decoration: none;
+    margin: 20px;
+}
+/* navbar styling  */
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(248, 175, 236);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo img {
+    height: 100px;
+    width: auto;
+    margin: 10px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+nav .menu a:hover {
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+    border-radius: 10px;
+}
+nav .icon a:hover {
+    color: rgb(#000);
+    background-color: white;
+    border-radius: 10px;
+}
+nav .btn i {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    margin-right: 40px;
+}
+/* image styling  */
+.image {
+    width: 100%;
+    height: 300px;
+}
+.image-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* our book styling  */
+.book {
+    display: flex;
+    padding: 20px;
+}
+.book .book-img {
+    height: 500px;
+    width: 40%;
+    border-radius: 30px;
+    margin-left: 80px;
+    overflow:auto;
+    /* background-color: aqua; */
+    /* box-shadow: 3px 3px 5px black; */
+}
+.book .book-img img{
+    height: 100%;
+    width: 100%;
+}
+.book-discripction {
+    height: 500px;
+    width: 40%;
+    margin-left: 100px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+/* <!--book services styling  --> */
+.categories .box-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.categories .box-container .box {
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    border: 2px solid black;
+}
+.categories .box-container .box img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+.categories .box-container .box h3, p, a{
+    margin: 20px;
+}
+.btn {
+    margin-top: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover {
+    color: white;
+    background-color: rgb(66, 45, 88);
+}
+/* our policy styling  */
+.features {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.policy-box {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.policy-item {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 30px;
+    background-color: rgb(98, 46, 255);
+    text-align: center;
+    box-shadow: 3px 3px 4px black;
+}
+.policy-item img {
+    height: 100px;
+    width: 200px;
+}
+/* customer review slider styling */
+.review {
+    display: flex;
+}
+.review-box {
+    height: auto;
+    width: 400px;
+    background-color: rgb(70, 46, 255);
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px 10px;
+    box-shadow: 2px 2px 4px black;
+}
+.review-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.review-box h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+/* footer styling  */
+.footer-contaner {
+    height: auto;
+    background-color: rgb(116, 46, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.address {
+    display: flex;
+    margin: 40px;
+}
+.about-help-policy {
+    display: flex;
+    margin: 40px 40px;
+    text-align: center;
+}
+
+.about-help-policy a{
+    color: black;
+}
+.footer-contaner ul {
+    list-style-type: none;
+}
+.footer-contaner ul span {
+    color: black;
+    font-size: 30px;
+}
+.footer-contaner ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer-contaner hr {
+    height: 150px;
+    width: 4px;
+    background-color: rgb(214, 155, 192);
+    margin: 0 40px;
+}
+.footer-contaner .media {
+    margin: 20px;
+}
+.footer-contaner .media img {
+    height: 60px;
+    margin: 20px 20px 0 20px;
+}
+.copyright {
+    font-size: 1.5vw;
+    background-color: rgb(203, 239, 239);
+    text-align: center;
+}
